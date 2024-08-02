@@ -1,0 +1,30 @@
+---
+title: "BM327 S2 micro lab manual"
+author: "Morgan Feeney"
+date: "`r Sys.Date()`"
+output: 
+  bookdown::pdf_document2:
+    toc: true
+    toc_depth: 2
+  bookdown::word_document2:
+    toc: true
+    toc_depth: 2
+bibliography: references.bib
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+#temporary cheat sheet for now
+\@ref(type:label) #to add a reference to a table (tab), figure (fig), or equation (eq)
+\@ref(label) where label is the section ID [to add an id add {#id} to the end of the section header]
+\newpage #to add a line break
+```
+ #
+ #
+ #
+ #
+ #
+ 
+
+
